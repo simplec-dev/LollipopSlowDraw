@@ -19,6 +19,7 @@ public class LollipopSlowDraw extends CordovaPlugin {
 	        	WebView.enableSlowWholeDocumentDraw();
 		        Log.d(LOG_TAG, "enableSlowWholeDocumentDraw()");
 	        }
+	        
     	} catch (Exception e) {
 	        Log.d(LOG_TAG, e.getMessage());
 	        e.printStackTrace();
